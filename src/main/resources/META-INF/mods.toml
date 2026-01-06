@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+issueTrackerURL=""
+
+[[mods]]
+modId="shieldwall"
+version="1.0.1"
+displayName="Shield Wall"
+description='''
+Adds a powerful shield pushback system.
+Blocking with a shield creates a physical defensive wall that pushes enemies back
+and slows/stops charging horses.
+'''
+authors="Knightmare"
+
+[[dependencies.shieldwall]]
+modId="forge"
+mandatory=true
+versionRange="[47.0.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.shieldwall]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"

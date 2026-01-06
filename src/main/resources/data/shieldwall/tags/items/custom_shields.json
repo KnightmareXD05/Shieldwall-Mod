@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "epicknights:heater_shield",
+    "epicknights:kite_shield",
+    "epicknights:tower_shield",
+    "epicknights:round_shield",
+    "epicknights:pavise",
+    "epicknights:heavy_kite_shield",
+    "epicknights:heavy_heater_shield"
+  ]
+}
