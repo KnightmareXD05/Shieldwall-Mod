@@ -66,11 +66,7 @@ public class ShieldEvents {
         }
     }
 
-    // ----------------------------------------------------------------
-    // UNIVERSAL SHIELD DETECTION
-    // 1. Vanilla shields (ShieldItem)
-    // 2. Any modded shield in tag: shieldwall:custom_shields
-    // ----------------------------------------------------------------
+    
     private static boolean isBlocking(LivingEntity e) {
 
         if (!e.isUsingItem()) return false;
@@ -87,3 +83,4 @@ public class ShieldEvents {
                 .is(ItemTags.create(CUSTOM_SHIELDS_TAG));
     }
 }
+
